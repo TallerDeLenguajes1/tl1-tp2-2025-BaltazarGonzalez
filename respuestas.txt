@@ -1,2 +1,3 @@
 en la carpeta no se puede ver el tp2_1_2.c porque esa rama no esta combinada con el main
 la diferecia que se nota es que se agrego el txt al main
+en los cambios se nota que se agrego lo realizado en la rama Opcion2 en el main
