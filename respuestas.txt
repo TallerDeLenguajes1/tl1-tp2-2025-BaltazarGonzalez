@@ -1,1 +1,2 @@
 en la carpeta no se puede ver el tp2_1_2.c porque esa rama no esta combinada con el main
+la diferecia que se nota es que se agrego el txt al main
