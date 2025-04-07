@@ -10,6 +10,7 @@ struct compu{
 typedef struct compu Compu;
 
 void listarPc(Compu pc[],int cant);
+void masVieja(Compu pc[],int cant);
 
 int main() {
     
@@ -36,4 +37,15 @@ void listarPc(Compu pc[],int cant){
     for(int a=0;a<cant;a++){
         printf("velocidad: %d año: %d  nucleos: %d  Procesador: %s\n",pc[a].velocidad,pc[a].anio,pc[a].cNucleos,pc[a].tipoCpu);
     }
+}
+void masVieja(Compu pc[],int cant){
+    int com,vieja=3000,i=0;
+    
+    while(i<cant){
+        if(pc[i].anio < vieja){
+            vieja = pc[i].anio;
+            com=i;
+        }
+    }
+    printf("la pc mas vieja velocidad: %d año: %d  nucleos: %d  Procesador: %s\n",pc[com].velocidad,pc[com].anio,pc[com].cNucleos,pc[com].tipoCpu);
 }        
